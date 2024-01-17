@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bubbe Popper Game</title>
+<meta charset="UTF-8">
+<meta name="description" content="How many bubbles can you pop?">
+<link href="css/style.css" rel="stylesheet" type="text/css" >
+<script src="src/main.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://use.typekit.net/zzf5rbd.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <!--This is the game container div where I have added the canvas and the text along with the start game button-->
+        <canvas id="gameCanvas"></canvas> <!--This is the canvas where we will draw the entire game.-->
+
+        
+            <div class="game-overlay" id="scoreOverlay">
+            <div class="game-overlay-text">Score: <span id="score">0</span></div>
+            </div>
+
+
+            <div class="game-overlay" id="timerOverlay">
+            <div class="game-overlay-text">Time Left: <span id="timer">15</span></div>
+            </div>
+            <!--Added a 15 second timer-->
+        
+
+            <button class="game-button" id="startButton">Start Game</button>
+            <!--Start Game button-->
+    </div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>

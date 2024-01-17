@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #9781a4; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Giving a basic style to the page. I've tried to make it a pink pastel themed game. */
+
+/* Styling the game container */
+
+.game-container {
+    position: relative;
+    width: 80%; 
+    max-width: 600px; 
+    height: 80%; 
+    max-height: 600px; 
+    background-color: #f6dcf7; 
+    border-radius: 15px; 
+    overflow: hidden;
+}
+  
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Adding some style to the game-overlay div */
+.game-overlay {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+/* Positioning the score on the left side */
+#scoreOverlay {
+    left: 10px; 
+}
+  
+/* Positioning the timer on the left side */
+#timerOverlay {
+    right: 10px; 
+}
+
+.game-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.game-overlay-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f7b5d1; 
+}
+
+/* Styling the game button */
+.game-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 0.3px;
+    background-color: #b57edc; 
+    color: #461053;
+    cursor: pointer;
+    display: block;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}  
+
+/* Adding a new colour on hover to make it look more interacctive */
+.game-button:hover {
+    background-color: #debbf9; 
+    color: #8c0e62;
+}
+
+/* Styling the appearance of the bubbles */
+.bubble {
+    position: absolute;
+    border: 2px solid #fff;
+    background-color: #f7b5d1; 
+    border-radius: 50%;
+}
+  
