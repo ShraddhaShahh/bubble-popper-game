@@ -8,6 +8,13 @@ body {
     background-color: #9781a4; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
 /* Giving a basic style to the page. I've tried to make it a pink pastel themed game. */
 
 /* Styling the game container */
